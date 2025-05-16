@@ -1,4 +1,4 @@
-import EDA_ACT1_poo.E3_constructor.Auto;
+import E3_constructor.Auto;
 
 public class E5Main {
     public static void main(String[] args) {

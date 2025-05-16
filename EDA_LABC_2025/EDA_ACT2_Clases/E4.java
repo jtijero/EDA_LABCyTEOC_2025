@@ -1,4 +1,4 @@
-package EDA_LABC_2025.EDA_ACT2_Clases;
+package EDA_ACT2_Clases;
 
 public class E4 { //implementar un método recursivo para ordenar los elementos de un vector
   static int[] vector = {312,614,88,22,54};

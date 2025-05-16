@@ -1,4 +1,4 @@
-package EDA_LABC_2025.EDA_ACT2_Clases;
+package EDA_ACT2_Clases;
 
 public class E5 {//sumar los elementos de un array con divide and conquer
   public static void main(String[] args){

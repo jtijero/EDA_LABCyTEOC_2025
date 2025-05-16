@@ -1,4 +1,4 @@
-package EDA_LABC_2025.EDA_ACT2_Clases;
+package EDA_ACT2_Clases;
 
 public class E3 { //recursividad
   

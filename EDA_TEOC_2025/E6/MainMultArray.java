@@ -1,4 +1,4 @@
-package EDA_TEOC_2025;
+package E6;
 
 public class MainMultArray {
   public static void main(String[] args) {

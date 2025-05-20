@@ -1,5 +1,5 @@
-package EDA_TEOC_2025;
-
+package E7;
+import E5.ArraySum;
 public class MainMediaArray {
     public static void main(String[] args) {
         int[] newArray = {10, 20, 30, 40, 50};

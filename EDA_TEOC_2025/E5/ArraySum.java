@@ -1,4 +1,4 @@
-package EDA_TEOC_2025;
+package E5;
 
 public class ArraySum {
   public static int sumArray(int[] arr) {

@@ -1,4 +1,4 @@
-package EDA_TEOC_2025;
+package E5;
 
 public class MainSumArray {
   public static void main(String[] args) {

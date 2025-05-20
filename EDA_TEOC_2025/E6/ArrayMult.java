@@ -1,4 +1,4 @@
-package EDA_TEOC_2025;
+package E6;
 
 public class ArrayMult{
   public static int multiplyArray(int[] arr) {

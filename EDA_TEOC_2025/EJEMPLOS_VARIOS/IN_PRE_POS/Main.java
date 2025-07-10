@@ -22,7 +22,7 @@ public class Main {
     System.out.println("\n>>> Buscar nodo 29: " + arbol.search(29));
     System.out.println(">>> Buscar nodo 50: " + arbol.search(50));
 
-    NodoArbol padre29 = arbol.parent(29); //ingresar aqui padre del nodo del que se quiere buscar
+    NodoArbolSplay padre29 = arbol.parent(29); //ingresar aqui padre del nodo del que se quiere buscar
     if (padre29!= null) {
       System.out.println("\n>>> Padre de 29: " + padre29.getValor());
     } else {

@@ -1,4 +1,5 @@
-import EDA_TEOC_2025.EJEMPLOS_VARIOS.AVL_Simple.Node;
+package EJEMPLOS_VARIOS.AVL_Simple;
+
 
 public class Main {
     public static void main(String[] args) {

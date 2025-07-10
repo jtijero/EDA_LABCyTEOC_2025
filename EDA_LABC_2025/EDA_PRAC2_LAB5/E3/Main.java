@@ -1,4 +1,4 @@
-package EDA_LABC_2025.EDA_PRAC2_LAB5.E3;
+package EDA_PRAC2_LAB5.E3;
 
 public class Main {
     public static void main(String[] args)

@@ -1,4 +1,4 @@
-package EJEMPLOS_VARIOS.IN_PRE_POS;
+
 
 class ArbolSplay {
   private NodoArbolSplay raiz;

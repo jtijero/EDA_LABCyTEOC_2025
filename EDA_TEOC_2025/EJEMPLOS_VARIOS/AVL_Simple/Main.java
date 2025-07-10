@@ -1,4 +1,4 @@
-package EJEMPLOS_VARIOS.AVL_Simple;
+package EDA_TEOC_2025.EJEMPLOS_VARIOS.AVL_Simple;
 
 
 public class Main {

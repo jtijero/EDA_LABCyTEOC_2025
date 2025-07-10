@@ -1,4 +1,4 @@
-import EDA_TEOC_2025.EJEMPLOS_VARIOS.AVL_Simple.Node;
+package EDA_TEOC_2025.EJEMPLOS_VARIOS.AVL_Simple;
 
 public class AVL {
   private Node root;

@@ -1,4 +1,4 @@
-package EDA_LABC_2025.EDA_PRAC1;
+package EDA_PRAC1;
 
 import java.io.*;
 

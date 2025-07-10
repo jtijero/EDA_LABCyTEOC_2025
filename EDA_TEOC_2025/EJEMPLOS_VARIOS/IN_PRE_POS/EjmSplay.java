@@ -1,4 +1,4 @@
-package EJEMPLOS_VARIOS.IN_PRE_POS;
+
 
 public class EjmSplay {
   public static void main(String[] args) {

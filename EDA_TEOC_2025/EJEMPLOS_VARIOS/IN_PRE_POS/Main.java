@@ -1,4 +1,4 @@
-package EJEMPLOS_VARIOS.IN_PRE_POS;
+package EJEMPLOS_VARIOS.IN_PRE_POS.Splay Tree;
 
 public class Main {
   public static void main(String[] args) {

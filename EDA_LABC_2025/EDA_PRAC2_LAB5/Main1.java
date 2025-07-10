@@ -1,4 +1,4 @@
-package EDA_LABC_2025.EDA_PRAC2_LAB5;
+package EDA_PRAC2_LAB5;
 
 import java.util.ArrayList;
 

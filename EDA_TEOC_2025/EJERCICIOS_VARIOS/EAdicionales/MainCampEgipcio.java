@@ -1,4 +1,4 @@
-package EDA_TEOC_2025;
+package EAdicionales;
 
 public class MainCampEgipcio {
     public static void main(String[] args) {

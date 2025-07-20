@@ -1,4 +1,4 @@
-package EDA_TEOC_2025;
+package EAdicionales;
 
 public class CampesinoEgipcio {
     public static int mult(int p, int q) {

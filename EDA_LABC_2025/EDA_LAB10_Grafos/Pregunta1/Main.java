@@ -1,4 +1,4 @@
-package EDA_LABC_2025.EDA_LAB10_Grafos.Pregunta1;
+package EDA_LAB10_Grafos.Pregunta1;
 
 public class Main {
     public static void main(String[] args) {

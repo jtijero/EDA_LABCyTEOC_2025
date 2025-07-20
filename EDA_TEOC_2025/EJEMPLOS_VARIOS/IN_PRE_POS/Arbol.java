@@ -1,3 +1,5 @@
+import SplayTree.NodoArbol;
+
 public class Arbol {
   NodoArbol inicial;
   public Arbol(){

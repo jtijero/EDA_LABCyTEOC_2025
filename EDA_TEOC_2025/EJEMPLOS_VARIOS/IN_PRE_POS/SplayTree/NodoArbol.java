@@ -1,3 +1,5 @@
+package SplayTree;
+
 public class NodoArbol {
   private int valor;
   private NodoArbol nodoIzq;

@@ -1,7 +1,5 @@
 package EDA_LAB8_Tries;
 
-import java.util.*;
-
 public class Trie {
     private final NodoTrie raiz;
 

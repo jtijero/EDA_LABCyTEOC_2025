@@ -1,0 +1,56 @@
+Leer el aspecto 4, guía de uso de proyecto
+
+archivo bdprueba.sql NO es un archivo de texto SQL, sino un dump en formato binario (custom) generado por pg_dump.
+ASI QUE ESTO NO FUNCIONA:
+en bash
+psql -U postgres
+
+ya en SQLshell
+CREATE DATABASE bd_cooperativapost;
+\c bd_cooperativapost
+\i 'C:/Users/TIJERO/Desktop/BD_Laboratorio/bdprueba.sql'
+
+ESTO SI:
+
+RECORDAR MODIFICAR ConexionPostgre/src/ConexionDB.java y colocar su contraseña de  postgres
+
+Y RECORDAR crear en SQLshell(psql):
+CREATE DATABASE bd_cooperativapost;
+
+
+1.DESDE TERMINAL:
+pg_restore -U postgres -d bd_cooperativapost "C:\Users\TIJERO\Desktop\BD_Laboratorio\bdprueba.sql"
+
+2.Agregar PostgreSQL al PATH 
+Presiona Windows + S y busca:
+Editar las variables de entorno del sistema
+
+Haz clic en el botón "Variables de entorno..."
+
+En la sección "Variables del sistema", busca Path, selecciona y haz clic en "Editar..."
+
+Haz clic en "Nuevo" y agrega esta ruta (ajústala si usas otra versión):
+C:\Program Files\PostgreSQL\17\bin
+
+Acepta todo y reinicia PowerShell.
+REALIZAR PASO 1.
+
+ERROR: ya existe el esquema «public»
+La orden era: CREATE SCHEMA public;
+Esto es normal si la base de datos ya tiene el esquema public creado por defecto (lo hace PostgreSQL automáticamente al crear la base).
+Este error es inofensivo y solo indica que no se pudo volver a crear un esquema que ya existe. El resto de las tablas, datos y funciones deberían haberse restaurado correctamente.
+
+3.Abrir terminal en:
+...\BD_Laboratorio\ConexionPostgre>
+
+javac -d bin -cp "lib/*" src/*.java
+java -cp "bin;lib/*" Main (en windows) / java -cp "bin:lib/*" Main (en linux)
+
+
+
+Nuevo
+4.Abrir terminal en:
+...\BD_Laboratorio\ConexionPostgre>
+pg_restore -U postgres -d bd_cooperativapost "C:\Users\TIJERO\Desktop\BD_Laboratorio\bd_cooperativapost.dump"
+javac -d bin -cp "lib/*" src/*.java
+java -cp "bin;lib/*" Main (en windows) / java -cp "bin:lib/*" Main (en linux)

@@ -1,0 +1,37 @@
+REM en bash
+psql -U postgres
+
+1.Ver un trigger en SQL Shell (psql)
+\d nombre_tabla
+
+EJM:
+bd_cooperativapost=# \dt
+           Listado de relaciones
+ Esquema |    Nombre     | Tipo  |  Due±o
+---------+---------------+-------+----------
+ public  | cooperativa   | tabla | postgres
+ public  | moneda        | tabla | postgres
+ public  | persona       | tabla | postgres
+ public  | producto      | tabla | postgres
+ public  | rol           | tabla | postgres
+ public  | socio         | tabla | postgres
+ public  | socioproducto | tabla | postgres
+ public  | tasa          | tabla | postgres
+ public  | tipoproducto  | tabla | postgres
+ public  | ubicacion     | tabla | postgres
+ public  | usuario       | tabla | postgres
+ public  | usuarioroles  | tabla | postgres
+(12 filas)
+
+
+bd_cooperativapost=# \d socioproducto
+...
+Triggers:
+    trg_actualizar_estado_socioproducto BEFORE UPDATE ON socioproducto FOR EACH ROW EXECUTE FUNCTION actualizar_estado_socioproducto()
+    trg_registrar_fecha_mod BEFORE UPDATE ON socioproducto FOR EACH ROW EXECUTE FUNCTION registrar_fecha_modificacion()
+
+bd_cooperativapost=#
+
+
+2.Ver el código de la función asociada al trigger
+\sf actualizar_estado_socioproducto
